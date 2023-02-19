@@ -17,13 +17,17 @@ Métodos de Stream en Java
 A continuación, se presentan algunos de los métodos más comunes que se pueden usar en un Stream en Java:
 ```
 1. filter(Predicate<T>)
-Este método se utiliza para filtrar los elementos de un Stream basándose en una condición definida en un objeto Predicate. Devuelve un Stream con los elementos que cumplen la condición.
+Este método se utiliza para filtrar los elementos de un Stream basándose en una condición 
+definida en un objeto Predicate. Devuelve un Stream con los elementos que cumplen la condición.
 
 2. map(Function<T, R>)
-Este método se utiliza para transformar los elementos de un Stream mediante una operación definida en un objeto Function. Devuelve un Stream con los elementos transformados.
+Este método se utiliza para transformar los elementos de un Stream mediante una operación 
+definida en un objeto Function. Devuelve un Stream con los elementos transformados.
 
 3. flatMap(Function<T, Stream<R>>)
-Este método se utiliza para transformar los elementos de un Stream en otro Stream mediante una operación definida en un objeto Function. Devuelve un Stream plano (sin anidamiento) con los elementos transformados.
+Este método se utiliza para transformar los elementos de un Stream en otro 
+Stream mediante una operación definida en un objeto Function. 
+Devuelve un Stream plano (sin anidamiento) con los elementos transformados.
 
 4. sorted()
 Este método se utiliza para ordenar los elementos de un Stream en orden natural.
@@ -41,19 +45,24 @@ Este método se utiliza para saltar los primeros n elementos de un Stream.
 Este método se utiliza para realizar una operación en cada elemento de un Stream.
 
 9. reduce(BinaryOperator<T>)
-Este método se utiliza para combinar los elementos de un Stream en un solo resultado mediante una operación definida en un objeto BinaryOperator.
+Este método se utiliza para combinar los elementos de un Stream en un 
+solo resultado mediante una operación definida en un objeto BinaryOperator.
 
 10. collect(Collector<T, A, R>)
-Este método se utiliza para coleccionar los elementos de un Stream en una colección específica definida en un objeto Collector.
+Este método se utiliza para coleccionar los elementos de un Stream en 
+una colección específica definida en un objeto Collector.
 
 11. anyMatch(Predicate<T>)
-Este método se utiliza para verificar si algún elemento de un Stream cumple con una condición definida en un objeto Predicate.
+Este método se utiliza para verificar si algún elemento de un Stream 
+cumple con una condición definida en un objeto Predicate.
 
 12. allMatch(Predicate<T>)
-Este método se utiliza para verificar si todos los elementos de un Stream cumplen con una condición definida en un objeto Predicate.
+Este método se utiliza para verificar si todos los elementos de un Stream 
+cumplen con una condición definida en un objeto Predicate.
 
 13. noneMatch(Predicate<T>)
-Este método se utiliza para verificar si ninguno de los elementos de un Stream cumple con una condición definida en un objeto Predicate.
+Este método se utiliza para verificar si ninguno de los elementos de un 
+Stream cumple con una condición definida en un objeto Predicate.
 
 14. findFirst()
 Este método se utiliza para obtener el primer elemento de un Stream, si existe.
@@ -65,17 +74,21 @@ Este método se utiliza para obtener cualquier elemento de un Stream, si existe.
 Este método se utiliza para contar el número de elementos en un Stream.
 
 17. min(Comparator<T>)
-Este método se utiliza para obtener el elemento mínimo de un Stream basado en un orden definido en un objeto Comparator.
+Este método se utiliza para obtener el elemento mínimo de un Stream 
+basado en un orden definido en un objeto Comparator.
 
 18. max(Comparator<T>)
-Este método se utiliza para obtener el elemento máximo de un Stream basado en un orden definido en un objeto Comparator.
+Este método se utiliza para obtener el elemento máximo de un Stream 
+basado en un orden definido en un objeto Comparator.
 
 19. toArray()
 Este método se utiliza para convertir un Stream en un array.
-``
+```
 
 ## Ejemplos de uso de Stream en HashMap
-Supongamos que tenemos un HashMap<String, Integer> que representa el número de ventas que ha tenido cada producto en una tienda en línea. Aquí te van algunos ejemplos de uso de Stream para procesar este HashMap:
+Supongamos que tenemos un HashMap<String, Integer> que representa el 
+número de ventas que ha tenido cada producto en una tienda en línea. 
+Aquí te van algunos ejemplos de uso de Stream para procesar este HashMap:
 
 1. Calcular la suma de todas las ventas:
 
