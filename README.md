@@ -1,19 +1,17 @@
 # Streams-en-Java
-Descripción de Streams en Java y casos de uso prácticos para uso didáctico.
 
-Stream en Java
 En Java, un Stream es una secuencia de elementos que se procesan de manera funcional. Los elementos pueden ser de diferentes tipos como objetos, primitivas, arrays y más. Los Streams se utilizan para realizar operaciones en colecciones, como filtrar elementos, mapearlos, reducirlos y más.
 
-¿Cómo funcionan los Streams en Java?
+## ¿Cómo funcionan los Streams en Java?
 Los Streams en Java funcionan a través de una serie de pasos que se aplican a los elementos de una colección. Estos pasos se realizan de forma secuencial y cada uno puede producir un nuevo Stream o un resultado final. Los pasos comunes en una operación de Stream son los siguientes:
 
-Creación de un Stream: se crea un Stream a partir de una colección como una lista, un array, un set, entre otros.
-Filtrado: se eliminan los elementos que no cumplen una condición definida.
-Transformación: se realiza una operación sobre cada elemento del Stream, como cambiar su tipo o calcular una propiedad.
-Reducción: se combinan los elementos del Stream en un solo resultado, como sumarlos o concatenarlos.
+- Creación de un Stream: se crea un Stream a partir de una colección como una lista, un array, un set, entre otros.
+- Filtrado: se eliminan los elementos que no cumplen una condición definida.
+- Transformación: se realiza una operación sobre cada elemento del Stream, como cambiar su tipo o calcular una propiedad.
+- Reducción: se combinan los elementos del Stream en un solo resultado, como sumarlos o concatenarlos.
 Los Streams en Java son inmutables, lo que significa que no se puede modificar la colección original y se debe crear un nuevo Stream para cada operación.
 
-Métodos de Stream en Java
+## Métodos de Stream en Java
 A continuación, se presentan algunos de los métodos más comunes que se pueden usar en un Stream en Java:
 ```
 1. filter(Predicate<T>)
