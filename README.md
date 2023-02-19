@@ -15,20 +15,20 @@ Los Streams en Java son inmutables, lo que significa que no se puede modificar l
 
 Métodos de Stream en Java
 A continuación, se presentan algunos de los métodos más comunes que se pueden usar en un Stream en Java:
-
-1. **filter(Predicate<T>)**
+``
+1. filter(Predicate<T>)
 Este método se utiliza para filtrar los elementos de un Stream basándose en una condición definida en un objeto Predicate. Devuelve un Stream con los elementos que cumplen la condición.
 
-2. **map(Function<T, R>)**
+2. map(Function<T, R>)
 Este método se utiliza para transformar los elementos de un Stream mediante una operación definida en un objeto Function. Devuelve un Stream con los elementos transformados.
 
-3. **flatMap(Function<T, Stream<R>>)**
+3. flatMap(Function<T, Stream<R>>)
 Este método se utiliza para transformar los elementos de un Stream en otro Stream mediante una operación definida en un objeto Function. Devuelve un Stream plano (sin anidamiento) con los elementos transformados.
 
-4. **sorted()**
+4. sorted()
 Este método se utiliza para ordenar los elementos de un Stream en orden natural.
 
-5. **distinct()**
+5. distinct()
 Este método se utiliza para eliminar los elementos duplicados de un Stream.
 
 6. limit(long n)
@@ -72,7 +72,7 @@ Este método se utiliza para obtener el elemento máximo de un Stream basado en 
 
 19. toArray()
 Este método se utiliza para convertir un Stream en un array.
-
+``
 
 ## Ejemplos de uso de Stream en HashMap
 Supongamos que tenemos un HashMap<String, Integer> que representa el número de ventas que ha tenido cada producto en una tienda en línea. Aquí te van algunos ejemplos de uso de Stream para procesar este HashMap:
