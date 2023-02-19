@@ -15,7 +15,7 @@ Los Streams en Java son inmutables, lo que significa que no se puede modificar l
 
 Métodos de Stream en Java
 A continuación, se presentan algunos de los métodos más comunes que se pueden usar en un Stream en Java:
-``
+```
 1. filter(Predicate<T>)
 Este método se utiliza para filtrar los elementos de un Stream basándose en una condición definida en un objeto Predicate. Devuelve un Stream con los elementos que cumplen la condición.
 
